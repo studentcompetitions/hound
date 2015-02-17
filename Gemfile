@@ -12,6 +12,7 @@ gem "attr_extras"
 gem "bourbon"
 gem "coffee-rails"
 gem "coffeelint"
+gem "dotenv-rails"
 gem "email_validator"
 gem "faraday"
 gem "font-awesome-rails"
@@ -44,7 +45,6 @@ end
 
 group :development, :test do
   gem "byebug"
-  gem "dotenv-rails"
   gem "foreman"
   gem "jasmine-rails"
   gem "poltergeist"
